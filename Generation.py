@@ -33,3 +33,4 @@ def make_full_grid(num):  # cannot just have dimen at input; need to know num la
             return None
 
     return fill_grid(0)
+
