@@ -7,7 +7,8 @@ def main():
     rect.setWidth(4)
     rect.draw(win)
 
-    list1 = [Line(Point(185, 29), Point(185, 497)), Line(Point(341, 29), Point(341, 497)), Line(Point(29, 185), Point(497, 185)), Line(Point(29, 341), Point(497, 341))]
+    list1 = [Line(Point(185, 29), Point(185, 497)), Line(Point(341, 29), Point(341, 497)),
+             Line(Point(29, 185), Point(497, 185)), Line(Point(29, 341), Point(497, 341))]
     for x in list1:
         x.setWidth(4)
         x.draw(win)
